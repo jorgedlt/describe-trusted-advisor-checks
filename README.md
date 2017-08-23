@@ -3,7 +3,8 @@ AWS describe-trusted-advisor-checks - list of all checks
 
 
 aws support describe-trusted-advisor-checks --language en | grep 'name.:'
-            "name": "Low Utilization Amazon EC2 Instances"
+
+             "name": "Low Utilization Amazon EC2 Instances"
             "name": "Idle Load Balancers"
             "name": "Underutilized Amazon EBS Volumes"
             "name": "Unassociated Elastic IP Addresses"
@@ -62,4 +63,3 @@ aws support describe-trusted-advisor-checks --language en | grep 'name.:'
             "name": "EC2Config Service for EC2 Windows Instances"
             "name": "Amazon EBS Public Snapshots"
             "name": "Amazon RDS Public Snapshots"
-            
